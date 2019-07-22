@@ -1,0 +1,22 @@
+{
+  "name": "yako-school-manager",
+  "version": "1.0.0",
+  "description": "School Management Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Okai Yeboah",
+  "license": "",
+  "devDependencies": {
+    "electron": "^4.1.3"
+  }
+}
