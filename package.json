@@ -17,6 +17,6 @@
   "author": "Okai Yeboah",
   "license": "",
   "devDependencies": {
-    "electron": "^4.1.3"
+    "electron": "^6.0.0"
   }
 }
