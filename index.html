@@ -4,30 +4,92 @@
 <head>
   <meta charset="UTF-8">
   <title>Yako School Manager</title>
+  <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/titlebar.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/side-menu-bar.css">
 </head>
 
 <body>
   <div class="container">
     <!-- title bar of the application-->
-    <div class="title-bar title-bar-style">
-      <div class="window-title prevent-select draggable">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yako School Manager</div>
+    <!-- <div class="title-bar title-bar-style">
+      <div class="window-title prevent-select draggable">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yako
+        School Manager</div>
 
       <div class="control-btn control-btn-style prevent-select">
-          <button id="minimize" class="minimize-btn"></button> 
-          <button id="maximize" class="maximize-btn"></button> 
-          <button id="close" class="close-btn"></button>     
+        <button id="minimize" class="minimize-btn"></button>
+        <button id="maximize" class="maximize-btn"></button>
+        <button id="close" class="close-btn"></button>
       </div>
-    </div>
+    </div> -->
+    <main>
+      <div class="box1">
+        <h2>Yako</h2>
+      </div>
+      <div class="box2">
+        <img width="35" height="35" src="yako-xd/resources/46adc8462b591211a6bcd6f711824947" alt="" class="school-icon">
+        <span class="school-name">Apostolic JHS</span>
+        <div class="search-area">
+          <input type="search" name="" id="" placeholder="Search here...">
+          <i class="fa fa-color fa-search"></i>
+        </div>
+        <div class="user-notification">
+          <div class="grey-circle">
+            <i class="fa fa-color fa-envelope"></i>
+          </div>
+          <span class="counter">13</span>
+          <div class="grey-circle">
+            <i class="fa fa-color fa-home"></i>
+          </div>
+          <span class="counter">13</span> 
+          <div class="pipe"></div>
+          <div class="user-img">
+          </div>
+          <div class="user-area">
+            <span class="user-name">Anane Gabriel</span>
+            <br>
+            <span class="user-type">Admin</span>
+          </div>
+          <i class="fa fa-color fa-angle-down"></i>
+        </div>
+      </div>
+      <div class="box3">
+          <div id="side-menu-bar">
+              <nav>
+                  <a href="#" class="active">Item</a>
+                  <a href="#">Item</a>
+                  <a href="#">Item</a>
+                  <a href="#">Item</a>
+                  <a href="#">Item</a>
+                  <a href="#">Item</a>
+                  <a href="#">Item</a>
+                  <a href="#">Item</a>
+              </nav>
+          </div>
+      
+        <div class="content-area">
+          <p>Dashboard</p>
+          <div>
+            container here
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
+
+
+
 
 
   <script>
     // You can also require other files to run in this process
     require('./renderer.js');
-    require('./js/titlebar.js')
+    require('./js/titlebar.js');
   </script>
+  <script src="js/all.js"></script>
 </body>
 
 </html>
