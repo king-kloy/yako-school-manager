@@ -14,14 +14,18 @@ function createWindow () {
     minHeight: 680,
     webPreferences: {
       nodeIntegration: true
-    },frame: false
+    },frame: true,
   })
+
+  // disable default menu 
+  mainWindow.setMenuBarVisibility(false)
+  mainWindow.removeMenu()
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
@@ -30,6 +34,7 @@ function createWindow () {
     // when you should delete the corresponding element.
     mainWindow = null
   })
+
 }
 
 // This method will be called when Electron has finished
