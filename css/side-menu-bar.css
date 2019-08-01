@@ -1,0 +1,35 @@
+#side-menu-bar {
+    background: #302D43;
+    width: 280px;
+    position: absolute;
+    height: 610px;
+}
+
+#side-menu-bar nav {
+    padding-top: 10px;
+}
+
+#side-menu-bar nav a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #EAEDF3;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+
+#side-menu-bar nav a:hover {
+    background: #282639;
+    border-left: 5px solid #92CF48;
+    padding: 15px 30px 15px 25px;
+}
+
+#side-menu-bar nav .active {
+    background: #282639;
+    border-left: 5px solid #92CF48;
+    padding: 15px 30px 15px 25px;
+}
+
+.fa {
+    color: #92CF48;
+}
