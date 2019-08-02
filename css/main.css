@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 45px 1fr;
+    grid-template-areas: "box1 box2" "box3 box3"
+}
+
 .box1 {
-    background: #92CF48;
+    background: #ffe711;
 }
 
 .box2 {
@@ -15,17 +23,11 @@
 
 .box3 {
     display: grid;
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: 250px 1fr;
     grid-template-areas: "side-menu-bar content-area"
 }
 
-main {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    grid-template-rows: 45px 1fr;
-    grid-template-areas: "box1 box2" "box3 box3"
-}
+
 
 .box1 {
     grid-area: box1;
@@ -45,7 +47,7 @@ main {
 }
 
 .content-area {
-    background: rgb(230, 228, 228);
+    background: #e8e9ec;
     grid-area: content-area;
 }
 
@@ -54,7 +56,7 @@ main {
 }
 
 .pipe {
-    border-right: 2px solid grey;
+    border-right: 2px solid #e8e9ec;
     height: 30px;
     margin: 8px 14px 10px 0px;
 }
@@ -64,20 +66,39 @@ main {
 }
 
 .school-name {
+    margin: 10px 0 10px 30px;
+    color: #fff;
+}
+
+.yakoSM {
     font-size: 25px;
     font-weight: 300;
-    width: 200px;
-    margin: 10px 10px;
+    width: 150px;
+    color: #707070;
+    margin: 10px 10px 10px 55px;
     vertical-align: center;
 }
 
+.tm {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 11px;
+    text-align: center;
+    color: #707070;
+    position: relative;
+    font-weight: 200;
+    top: 6px;
+    left: -80px;
+}
+
 .search-area {
-    background: rgb(230, 228, 228);
+    background: #e8e9ec;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    /* width: 30px; */
+    width: 280px;
     height: 25px;
     border-radius: 50px;
     margin-top: 10px;
@@ -86,6 +107,7 @@ main {
 }
 
 .search-area input[type="search"] {
+    color: #707070;
     background: transparent;
     outline: none;
     border: none;
@@ -98,7 +120,7 @@ main {
 }
 
 .grey-circle {
-    background: rgb(230, 228, 228);
+    background: #e8e9ec;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -108,6 +130,10 @@ main {
     margin-top: 5px;
     border-radius: 50%;
     padding: 7px;
+}
+
+.grey-circle a {
+    text-decoration: none;
 }
 
 .user-img {
@@ -125,7 +151,7 @@ main {
 
 .counter {
     display: inline-block;
-    background: red;
+    background: #3686FF;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -133,12 +159,28 @@ main {
     text-align: center;
     color: #fff;
     position: relative;
+    font-weight: 200;
+    top: 5px;
+    left: -15px;
+}
+
+.counter-yellow {
+    display: inline-block;
+    background: #ffe711;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-weight: 200;
     top: 5px;
     left: -15px;
 }
 
 .user-area {
-    margin: 3px 14px 0px 0px;
+    margin: 3px 10px 0px 0px;
 }
 
 .user-name {
@@ -148,7 +190,7 @@ main {
 }
 
 .user-type {
-    font-weight: 100;
+    color: #707070;
     font-size: 0.7rem;
 }
 
@@ -158,8 +200,18 @@ main {
 
 .fa-angle-down {
     margin-top: 15px;
+    color: #192060;
 }
 
-.fa-color {
-    color: red;
+.fa-search {
+    color: #192060;
 }
+
+.fa-bell {
+    color: #192060;
+}
+
+.fa-envelope {
+    color: #192060;
+}
+

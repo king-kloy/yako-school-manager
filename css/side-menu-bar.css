@@ -1,8 +1,8 @@
 #side-menu-bar {
     background: #302D43;
-    width: 280px;
+    width: 250px;
     position: absolute;
-    height: 610px;
+    height: 635px;
 }
 
 #side-menu-bar nav {
@@ -30,6 +30,61 @@
     padding: 15px 30px 15px 25px;
 }
 
-.fa {
-    color: #92CF48;
+.logout {
+    margin-top: 80px;
+}
+
+.fa-chart-bar {
+    color: #ffe711;
+    margin-right: 15px;
+}
+
+.fa-user-tie {
+    color: #ffe711;
+    margin-right: 15px;
+}
+
+.fa-user-graduate {
+    color: #ffe711;
+    margin-right: 15px;
+}
+
+.fa-users {
+    color: #ffe711;
+    margin-right: 15px;
+}
+
+.fa-credit-card {
+    color: #ffe711;
+    margin-right: 15px;
+}
+
+.fa-user-friends {
+    color: #ffe711;
+    margin-right: 15px;
+}
+
+.fa-file-alt {
+    color: #ffe711;
+    margin-right: 22px;
+}
+
+.fa-user-check {
+    color: #ffe711;
+    margin-right: 15px;
+}
+
+.fa-file {
+    color: #ffe711;
+    margin-right: 22px;
+}
+
+.fa-truck {
+    color: #ffe711;
+    margin-right: 12px;
+}
+
+.fa-sign-out-alt {
+    color: #ffe711;
+    margin-right: 15px;
 }
