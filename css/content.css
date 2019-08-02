@@ -1,0 +1,10 @@
+.content-title {
+    margin: 10px 20px;
+}
+
+.content {
+    margin: 0 0 0 20px;
+    background: #3686FF;
+    width: 850px;
+    height: 560px;
+}
