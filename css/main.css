@@ -187,11 +187,13 @@ main {
     top: 5px;
     font-size: 0.9rem;
     font-weight: 300;
+    width: 110px;
 }
 
 .user-type {
     color: #707070;
     font-size: 0.7rem;
+    width: 110px;
 }
 
 .fa-search {
