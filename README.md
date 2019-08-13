@@ -11,6 +11,9 @@ Cross Platform Desktop Application for School Management
 	
 	# change to the project directory
 	cd yako-school-manager
+
+	# install node modules or dev dependecies
+	npm install
 	
 	# to run the app make sure you have nodejs and electronjs installed
 	
