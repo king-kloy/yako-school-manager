@@ -30,61 +30,63 @@
     padding: 15px 30px 15px 25px;
 }
 
-.logout {
-    margin-top: 80px;
+#side-menu-bar .logout {
+    position: absolute;
+    top: 570px;
+    width: 100%;
 }
 
-.fa-chart-bar {
+#side-menu-bar .fa-chart-bar {
     color: #ffe711;
     margin-right: 15px;
 }
 
-.fa-user-tie {
+#side-menu-bar .fa-user-tie {
     color: #ffe711;
     margin-right: 15px;
 }
 
-.fa-user-graduate {
+#side-menu-bar .fa-user-graduate {
     color: #ffe711;
     margin-right: 15px;
 }
 
-.fa-users {
+#side-menu-bar .fa-users {
     color: #ffe711;
     margin-right: 15px;
 }
 
-.fa-credit-card {
+#side-menu-bar .fa-credit-card {
     color: #ffe711;
     margin-right: 15px;
 }
 
-.fa-user-friends {
+#side-menu-bar .fa-user-friends {
     color: #ffe711;
     margin-right: 15px;
 }
 
-.fa-file-alt {
+#side-menu-bar .fa-file-alt {
     color: #ffe711;
     margin-right: 22px;
 }
 
-.fa-user-check {
+#side-menu-bar .fa-user-check {
     color: #ffe711;
     margin-right: 15px;
 }
 
-.fa-file {
+#side-menu-bar .fa-file {
     color: #ffe711;
     margin-right: 22px;
 }
 
-.fa-truck {
+#side-menu-bar .fa-truck {
     color: #ffe711;
     margin-right: 12px;
 }
 
-.fa-sign-out-alt {
+#side-menu-bar .fa-sign-out-alt {
     color: #ffe711;
     margin-right: 15px;
 }
